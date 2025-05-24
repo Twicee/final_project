@@ -1,0 +1,38 @@
+:root {
+  --bg: #ffffff;
+  --fg: #222222;
+  --primary: #6200ee;
+  --overlay-bg: rgba(0, 0, 0, 0.5);
+  --modal-bg: #ffffff;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 2rem;
+  
+  --padding-1: 2rem;
+
+  --max-width: 48rem;
+  --modal-max-width: 24rem;
+
+  --font-sans: system-ui, sans-serif;
+  --font-size-base: 1rem;
+  --line-height-base: 1.5;
+  --font-size-lg: 1.5rem;
+  --font-size-xl: 1.75rem;
+
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-full: 50%;
+
+  --z-index-overlay: 1000;
+  --z-index-modal:   1001;
+}
+
+[data-theme="dark"] {
+  --bg: #403b3b;
+  --fg: #e0e0e0;
+  --primary: #bb86fc;
+  --overlay-bg: rgba(0, 0, 0, 0.7);
+  --modal-bg: #1e1e1e;
+}
